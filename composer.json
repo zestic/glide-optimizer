@@ -1,6 +1,6 @@
 {
-    "name": "infinityweb/glide-optimizer",
-    "description": "An optimizer manipulator for Glide that uses ps/image-optimizer package.",
+    "name": "zestic/glide-optimizer",
+    "description": "An optimizer manipulator for Glide that uses spatie/image-optimizer package.",
     "keywords": [
         "glide",
         "image",
@@ -8,7 +8,7 @@
     ],
     "type": "library",
     "license": "MIT",
-    "homepage": "https://github.com/YannikFirre/glide-optimizer",
+    "homepage": "https://github.com/zestic/glide-optimizer",
     "authors": [
         {
             "name": "Yannik Firre",
@@ -17,14 +17,12 @@
     ],
     "require": {
         "league/glide": "^1.5 || ^2.0",
-        "psr/log": "^1.1",
-        "ps/image-optimizer": "^2.0"
-    },
-    "require-dev": {
+        "psr/log": "^1.0 | ^2.0 | ^3.0",
+        "spatie/image-optimizer": "^1.7"
     },
     "autoload": {
         "psr-4": {
-            "Infinityweb\\Glide\\Optimizer\\": "src/"
+            "Zestic\\Glide\\Optimizer\\": "src/"
         }
     }
 }

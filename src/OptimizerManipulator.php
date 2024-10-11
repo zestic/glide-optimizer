@@ -1,6 +1,6 @@
 <?php
 
-namespace Infinityweb\Glide\Optimizer;
+namespace Zestic\Glide\Optimizer;
 
 use ImageOptimizer\OptimizerFactory;
 use Intervention\Image\Image;
